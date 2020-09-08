@@ -26,7 +26,7 @@ I've used the one from Oscar Liang, but implemented it on a breadboard.
 Source: https://oscarliang.com/sbus-smartport-telemetry-naze32/ (`SBUS Signal Inverter` part.)
 The resistor wattage doesn't really matters, use wathever you have.
 
-![images/inverter.jpg](Inverter circuit)
+![Inverter circuit](images/inverter.jpg)
 
 
 ## Arduino with ATmega32u4
@@ -85,8 +85,8 @@ https://youtu.be/k4_7HFKpz5E
 
 Then after some soldering I came up with this and tested again:
 
-![images/connected.jgp](Everything connected)
+![Everything connected](images/connected.jgp)
 
 And I put everything in a smaller box:
 
-![images/final.jgp](Final stuff)
+![Final stuff](images/final.jgp)
