@@ -18,13 +18,15 @@ There are 3 required components for this project.
 
 I got an XM+ without atennas which is fine. I don't care about the range, because I'll sit in front of my computer with the transmitter. Any SBUS compatible receiver will work fine.
 
+Don't forget to bind your radio to this and configure the transmitter to send the switches you want, etc. This is not part of this project.
+
 ## SBUS inverter circuit
 
 I've used the one from Oscar Liang, but implemented it on a breadboard.
 Source: https://oscarliang.com/sbus-smartport-telemetry-naze32/ (`SBUS Signal Inverter` part.)
 The resistor wattage doesn't really matters, use wathever you have.
 
-
+![images/inverter.jpg](Inverter circuit)
 
 
 ## Arduino with ATmega32u4
@@ -77,3 +79,14 @@ Now just open up the Arduino project file from my repo and it should compile. (U
 If you connect to board to the PC, just upload the code and you are done.
 
 You could even update the code on the Arduino even when everything is connected, because it has a dedicated USB circuit which is independet from the RX1 serial port on the board.
+
+First I tried everything on a breadboard with the serial prints to check if everything works, here's a video about it:
+https://youtu.be/k4_7HFKpz5E
+
+Then after some soldering I came up with this and tested again:
+
+![images/connected.jgp](Everything connected)
+
+And I put everything in a smaller box:
+
+![images/final.jgp](Final stuff)
