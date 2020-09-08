@@ -1,5 +1,7 @@
 # SBUS Joy
 
+**The code is still WIP!**
+
 This project is an SBUS compatible virtual joystick with arduino and stuff.
 
 I got a lot of help/idea from the following projects:
