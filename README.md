@@ -85,8 +85,8 @@ https://youtu.be/k4_7HFKpz5E
 
 Then after some soldering I came up with this and tested again:
 
-![Everything connected](images/connected.jgp)
+![Everything connected](images/connected.jpg)
 
 And I put everything in a smaller box:
 
-![Final stuff](images/final.jgp)
+![Final stuff](images/final.jpg)
