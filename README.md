@@ -81,7 +81,8 @@ If you connect to board to the PC, just upload the code and you are done.
 You could even update the code on the Arduino even when everything is connected, because it has a dedicated USB circuit which is independet from the RX1 serial port on the board.
 
 First I tried everything on a breadboard with the serial prints to check if everything works, here's a video about it:
-https://youtu.be/k4_7HFKpz5E
+
+[![Test video](https://img.youtube.com/vi/k4_7HFKpz5E/0.jpg)](https://youtu.be/k4_7HFKpz5E)
 
 Then after some soldering I came up with this and tested again:
 
