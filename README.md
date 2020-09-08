@@ -93,3 +93,15 @@ Then after some soldering I came up with this and tested again:
 And I put everything in a smaller box:
 
 ![Final stuff](images/final.jpg)
+
+# Alternatives
+
+## Pre-built USB dongle
+
+Use a pre-built solution like this one:
+https://www.frsky-rc.com/product/xsr-sim/
+
+## Use an FC
+
+You have a spare flight controller with and older Betaflight than 3.4?
+Use that as and emulator, check out this post: https://oscarliang.com/betaflight-fc-fpv-simulator/
