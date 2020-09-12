@@ -65,41 +65,14 @@ void loop() {
   // sbus.getLostFrames() - lost frames
   // sbus.getDecoderErrorFrames() - frame decode fail
   // (millis() - sbus.getLastTime()) - time diff between received and now
-//    if (sbus.getFailsafeStatus() == SBUS_FAILSAFE_ACTIVE) {
-//    Serial.println("Active");
-//  }
-//  if (sbus.getFailsafeStatus() == SBUS_FAILSAFE_INACTIVE) {
-//    Serial.println("Not Active");
-//  }
-//
-//  Serial.print("Data loss on connection: ");
-//  Serial.print(sbus.getFrameLoss());
-//  Serial.println("%");
-//
-//  Serial.print("Frames: ");
-//  Serial.print(sbus.getGoodFrames());
-//  Serial.print(" / ");
-//  Serial.print(sbus.getLostFrames());
-//  Serial.print(" / ");
-//  Serial.println(sbus.getDecoderErrorFrames());
-//    Serial.print("Time diff: ");
-//  Serial.println(long(millis() - sbus.getLastTime()));
   
   Joystick.sendState();
-
-
-// TODO: Test the failsafe part! (maybe sendind 0 will be enough here)
-
-
-  // Check failsafe and disconnect the joy if needed
-//  if (sbus.getFailsafeStatus() == SBUS_FAILSAFE_ACTIVE && !failsafeActive) {
-//    failsafeActive = true; // Activate the local failsafe state
-//    Joystick.end();
-//  }
-//
-//  if (sbus.getFailsafeStatus() == SBUS_FAILSAFE_INACTIVE && failsafeActive) {
-//    failsafeActive = false; // Deacrivate the local failsafe
-//    Joystick.begin(false); // Restart the emulation
-//  }
+  if (sbus.getFailsafeStatus() == SBUS_FAILSAFE_ACTIVE && !failsafeActive) {
+    Serial.println("Failsafe active!");
+    failsafeActive = true;
+  }
+  if (sbus.getFailsafeStatus() == SBUS_FAILSAFE_INACTIVE && failsafeActive){
+    Serial.println("Failsafe recovered");
+    failsafeActive = false;
+  }
 }
-
