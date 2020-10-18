@@ -30,7 +30,7 @@ The resistor wattage doesn't really matters, use wathever you have.
 
 I've created a different inverter too, without the board.
 
-![Inverter circuit v2](image/inverter_v2.jpg)
+![Inverter circuit v2](images/inverter_v2.jpg)
 
 
 ## Arduino with ATmega32u4
