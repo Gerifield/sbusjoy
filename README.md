@@ -28,6 +28,10 @@ The resistor wattage doesn't really matters, use wathever you have.
 
 ![Inverter circuit](images/inverter.jpg)
 
+I've created a different inverter too, without the board.
+
+![Inverter circuit v2](image/inverter_v2.jpg)
+
 
 ## Arduino with ATmega32u4
 
@@ -91,6 +95,10 @@ Then after some soldering I came up with this and tested again:
 And I put everything in a smaller box:
 
 ![Final stuff](images/final.jpg)
+
+Or with a different style inverter I just left it like this:
+
+![Final stuff v2](images/final_v2.jpg)
 
 # Alternatives
 
